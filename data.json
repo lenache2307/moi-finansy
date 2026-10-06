@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Мои финансы",
+    "userName": "Елена",
+    "currency": "₽",
+    "startBalance": 0
+  },
+  "categories": {
+    "income": [
+      { "id": "business", "name": "Бизнес", "color": "#7F9D86" },
+      { "id": "projects", "name": "Проекты и консультации", "color": "#A9BFA6" },
+      { "id": "investments", "name": "Инвестиции", "color": "#C7B37F" },
+      { "id": "gifts", "name": "Подарки", "color": "#D9A99E" },
+      { "id": "other_in", "name": "Другое", "color": "#BDB0AD" }
+    ],
+    "expense": [
+      { "id": "food", "name": "Продукты", "color": "#D8B48C" },
+      { "id": "home", "name": "Дом", "color": "#BCA897" },
+      { "id": "utilities", "name": "Коммунальные платежи", "color": "#A7B8C9" },
+      { "id": "health", "name": "Здоровье", "color": "#93BFA5" },
+      { "id": "beauty", "name": "Красота", "color": "#DDA59B" },
+      { "id": "sport", "name": "Спорт", "color": "#8FB0B8" },
+      { "id": "dog", "name": "Собака", "color": "#C9A98C" },
+      { "id": "child", "name": "Ребёнок", "color": "#E0B7C5" },
+      { "id": "transport", "name": "Транспорт", "color": "#B7A6C9" },
+      { "id": "restaurants", "name": "Кафе и рестораны", "color": "#D6BE86" },
+      { "id": "clothes", "name": "Одежда", "color": "#C995A8" },
+      { "id": "other_out", "name": "Другое", "color": "#BFB2AE" }
+    ]
+  },
+  "operations": [
+    { "id": "ex1", "type": "income", "amount": 250000, "category": "business", "date": "2026-10-01", "note": "Выплата за сентябрь" },
+    { "id": "ex2", "type": "expense", "amount": 12000, "category": "beauty", "date": "2026-10-02", "note": "Косметолог" },
+    { "id": "ex3", "type": "expense", "amount": 8400, "category": "utilities", "date": "2026-10-03", "note": "Квартплата за сентябрь" },
+    { "id": "ex4", "type": "expense", "amount": 6340, "category": "food", "date": "2026-10-04", "note": "Продукты на неделю" },
+    { "id": "ex5", "type": "income", "amount": 18200, "category": "investments", "date": "2026-10-05", "note": "Купоны по облигациям" }
+  ]
+}
